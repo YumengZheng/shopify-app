@@ -3248,12 +3248,12 @@ hr {
 /*================ Index sections ================*/
 .index-section {
   /*   padding-top: 35px; */
-  padding-bottom: 35px;
+  /* padding-bottom: 35px; */
 }
 @media only screen and (min-width: 750px) {
   .index-section {
     /*       padding-top: 55px; */
-    padding-bottom: 55px;
+    /* padding-bottom: 55px; */
   }
 }
 .index-section:first-child {
@@ -3264,14 +3264,14 @@ hr {
   padding-bottom: 0;
 }
 
-.index-section--flush + .index-section--flush {
+/* .index-section--flush + .index-section--flush {
   margin-top: -70px;
-}
+} */
 
 @media only screen and (min-width: 750px) {
-  [class*="index-section--flush"] + [class*="index-section--flush"] {
+  /* [class*="index-section--flush"] + [class*="index-section--flush"] {
     margin-top: -110px;
-  }
+  } */
 }
 
 .index-section--flush:first-child {
